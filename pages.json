@@ -1,0 +1,39 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {}
+		},
+		{
+			"path": "pages/post/post",
+			"style": {}
+		},
+		{
+			"path": "pages/friends/friends",
+			"style": {}
+		},
+        {
+            "path" : "pages/uniblog/uniblog",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	// "plugins": {
+	// 	"htmltowxml": {
+	// 		"version": "1.4.0",
+	// 		"provider": "wxa51b9c855ae38f3c"
+	// 	}
+	// },
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#fff",
+		"navigationBarTitleText": "ColorUI",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	},
+	"subPackages": []
+}

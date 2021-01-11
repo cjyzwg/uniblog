@@ -1,0 +1,279 @@
+// 在本文件中可配置云数据库初始化，数据格式见：https://uniapp.dcloud.io/uniCloud/hellodb?id=db-init
+// 编写完毕后对本文件点右键，可按配置规则创建表和添加数据
+{
+    "bloglinks": {
+        "data": [
+            {
+                "_id": "5ffa5845bbbf9b0001482f71",
+                "name": "cjyzwg",
+                "description": "用技术解决生活中遇到的问题",
+                "logo": "https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/baf09e70-52e2-11eb-b680-7980c8a877b8.png",
+                "url": "https://blog.hexiefamily.xin",
+                "sort": 1
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "properties": {
+                "_id": {
+                    "description": "存储文档 ID（令牌 ID），系统自动生成"
+                },
+                "name": {
+                    "bsonType": "string",
+                    "title": "path",
+                    "description": "博主名称"
+                },
+                "logo": {
+                    "bsonType": "string",
+                    "title": "logo",
+                    "description": "头像"
+                },
+                "description": {
+                    "bsonType": "string",
+                    "title": "description",
+                    "description": "描述"
+                },
+                "url": {
+                    "bsonType": "string",
+                    "title": "url",
+                    "description": "链接"
+                },
+                "sort": {
+                    "bsonType": "int",
+                    "title": "排序",
+                    "description": "排序"
+                }
+            }
+        }
+    },
+    "blogvisits": {
+        "data": [
+            {
+                "_id": "5ffa0ceb770c790001629ce2",
+                "path": "/DNSMASQ/dnsmasq配置局域网域名.md",
+                "typ": 1,
+                "created_at": 1610367013201,
+                "visits": 56
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "properties": {
+                "_id": {
+                    "description": "存储文档 ID（令牌 ID），系统自动生成"
+                },
+                "path": {
+                    "bsonType": "string",
+                    "title": "path",
+                    "description": "文章路径"
+                },
+                "visits": {
+                    "bsonType": "int",
+                    "title": "visits",
+                    "defaultvalue": 0,
+                    "description": "浏览量"
+                },
+                "typ": {
+                    "bsonType": "int",
+                    "title": "小程序类型",
+                    "description": "小程序类型：1 微信 2 QQ 3 字节头条 4 支付宝 5 百度 6 360 7 快应用",
+                    "defaultValue": 1,
+                    "enum": [
+                        {
+                            "text": "微信",
+                            "value": 1
+                        },
+                        {
+                            "text": "QQ",
+                            "value": 2
+                        },
+                        {
+                            "text": "字节头条",
+                            "value": 3
+                        },
+                        {
+                            "text": "支付宝",
+                            "value": 4
+                        },
+                        {
+                            "text": "百度",
+                            "value": 5
+                        },
+                        {
+                            "text": "360",
+                            "value": 6
+                        },
+                        {
+                            "text": "快应用",
+                            "value": 7
+                        }
+                    ]
+                },
+                "created_at": {
+                    "bsonType": "timestamp",
+                    "title": "浏览创建时间",
+                    "description": "创建时间"
+                }
+            }
+        }
+    },
+    "comments": {
+        "data": [
+            {
+                "_id": "5ffa3255fce5d00001241e6d",
+                "created_at": 1610247306941,
+                "path": "/DNSMASQ/dnsmasq配置局域网域名.md",
+                "openid": "o0UGb5aT2U2Vd8iUYTZO4EtzdyHk",
+                "avatarurl": "https://thirdwx.qlogo.cn/mmopen/vi_32/Q3auHgzwzM5Y6FYOEmT6LDDoJGlOHYDGIez0YkGyl48X1l1lrYKo86vnKp0Ob0CviahMAWPAWQy2gec2a8Bf60g/132",
+                "content": "哈哈哈牛🐂🐂🐂🐂🐂",
+                "islike": 1
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "properties": {
+                "_id": {
+                    "description": "存储文档 ID（令牌 ID），系统自动生成"
+                },
+                "author": {
+                    "bsonType": "string",
+                    "title": "author",
+                    "description": "用户名称"
+                },
+                "openid": {
+                    "bsonType": "string",
+                    "title": "openid",
+                    "description": "用户唯一id"
+                },
+                "avatarurl": {
+                    "bsonType": "string",
+                    "title": "avatarurl",
+                    "description": "头像地址"
+                },
+                "path": {
+                    "bsonType": "string",
+                    "title": "path",
+                    "description": "文章路径"
+                },
+                "content": {
+                    "bsonType": "string",
+                    "title": "content",
+                    "description": "评价内容"
+                },
+                "islike": {
+                    "bsonType": "int",
+                    "title": "是否喜欢",
+                    "description": "喜欢类型：1 喜欢 2 不喜欢",
+                    "defaultValue": 1,
+                    "enum": [
+                        {
+                            "text": "喜欢",
+                            "value": 1
+                        },
+                        {
+                            "text": "不喜欢",
+                            "value": 0
+                        }
+                    ]
+                },
+                "created_at": {
+                    "bsonType": "timestamp",
+                    "title": "创建时间",
+                    "description": "评论创建时间"
+                }
+            }
+        }
+    },
+    "token": {
+        "data": [
+            {
+                "_id": "5fdc73021ee4f500018fa70e",
+                "typ": 1,
+                "created_at": 1610247306577,
+                "appid": "appid",
+                "secret": "secret",
+                "access_token": "41_Xw6p4H3BAONQytzEYvvsz9LKMdaU9schLDNqg22p1rx0m60EIDz_TsSYUv7Ua3gVbtNIVqxepwnGXz1ba1-gjYsYcpVfYn1ZZzeLyqbojEcY758gyKvP2VP4VzLQj8Q6XHHk3CZAeA4-fcB8AZMbAGALKX",
+                "expires_in": 1610254481,
+				"apptyp":"blog"
+            }
+        ],
+        "schema": {
+            "bsonType": "object",
+            "required": [],
+            "properties": {
+                "_id": {
+                    "description": "存储文档 ID（令牌 ID），系统自动生成"
+                },
+                "appid": {
+                    "bsonType": "string",
+                    "title": "appid",
+                    "description": "小程序appid"
+                },
+                "secret": {
+                    "bsonType": "string",
+                    "title": "secret",
+                    "description": "小程序app secret"
+                },
+                "access_token": {
+                    "bsonType": "string",
+                    "title": "access token",
+                    "description": "小程序临时令牌"
+                },
+                "apptyp": {
+                    "bsonType": "string",
+                    "title": "小程序类型",
+                    "description": "小程序类型"
+                },
+                "expires_in": {
+                    "bsonType": "timestamp",
+                    "title": "令牌过期时间",
+                    "description": "令牌过期时间"
+                },
+                "typ": {
+                    "bsonType": "int",
+                    "title": "小程序类型",
+                    "description": "小程序类型：1 微信 2 QQ 3 字节头条 4 支付宝 5 百度 6 360 7 快应用",
+                    "defaultValue": 1,
+                    "enum": [
+                        {
+                            "text": "微信",
+                            "value": 1
+                        },
+                        {
+                            "text": "QQ",
+                            "value": 2
+                        },
+                        {
+                            "text": "字节头条",
+                            "value": 3
+                        },
+                        {
+                            "text": "支付宝",
+                            "value": 4
+                        },
+                        {
+                            "text": "百度",
+                            "value": 5
+                        },
+                        {
+                            "text": "360",
+                            "value": 6
+                        },
+                        {
+                            "text": "快应用",
+                            "value": 7
+                        }
+                    ]
+                },
+                "created_at": {
+                    "bsonType": "timestamp",
+                    "title": "创建时间",
+                    "description": "令牌创建时间"
+                }
+            }
+        }
+    }
+}
