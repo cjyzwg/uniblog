@@ -49,7 +49,7 @@
     },
     "quickapp" : {},
     "mp-weixin" : {
-        "appid" : "wxc05536cc4c0788c4",
+        "appid" : "",
         "setting" : {
             "urlCheck" : false
         },
@@ -60,24 +60,18 @@
             }
         }
     },
-    // "plugins" : {
-    //     "htmltowxml" : {
-    //         "version" : "1.4.0",
-    //         "provider" : "wxa51b9c855ae38f3c"
-    //     }
-    // }
     "mp-alipay" : {
         "usingComponents" : true,
-        "appid" : "2021002122652243"
+        "appid" : ""
     },
     "mp-baidu" : {
         "usingComponents" : true
     },
     "mp-toutiao" : {
         "usingComponents" : true,
-        "appid" : "tt5c042ab9c33f568e"
+        "appid" : ""
     },
     "mp-qq" : {
-        "appid" : "1111023051"
+        "appid" : ""
     }
 }
