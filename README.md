@@ -1,7 +1,7 @@
 # 博客前后端均已开源，前端uniapp，后端golang
 
 ## 简介
-前端地址：[uniblog](https://github.com/xusenlin/forest-blog)  
+前端地址：[uniblog](https://github.com/cjyzwg/uniblog)  
 后端地址：[cjblog](https://github.com/cjyzwg/forestblog)  
 博客地址：[博客](https://blog.hexiefamily.xin)  
 配合 [**blog**](https://github.com/cjyzwg/forestblog) ,借鉴[**WeHalo**](https://github.com/aquanlerou/WeHalo)样式开发出来的 **简约风** uniapp版博客，可供多端使用。
@@ -12,7 +12,7 @@
 ## 快速开始
 
 ### 前端部分:
-
+#### 地址：[uniblog](https://github.com/cjyzwg/uniblog)  
 1. git clone https://github.com/cjyzw/uniblog 或者打开[**插件市场**](https://uniapp.dcloud.io/quickstart-hx?id=%e8%bf%90%e8%a1%8cuni-app)点击右侧导入插件/下载zip
 2. 打开Hbuilder本项目，右击关联云空间，选择阿里云，将db_init.json部署到云存储中。**注：打开[**unicloud控制台**](https://unicloud.dcloud.net.cn/),选择阿里云服务空间/云数据库/token表，点击管理修改typ,appid,secret即可**
 3. 用Hbuilder打开本项目中mainfest.json填写对应小程序的appid
@@ -51,7 +51,7 @@ globalData: {
 **注：例子中无appid，所以无法在手机上运行，如果需要预览，真机调试填上自己的小程序 appid哦~,具体各类小程序如何运行可以访问 [**运行**](https://uniapp.dcloud.io/quickstart-hx?id=%e8%bf%90%e8%a1%8cuni-app)
  
 ### 后端部分：
-
+#### 地址：[cjblog](https://github.com/cjyzwg/forestblog)  
 1. git clone http://github.com/cjyzwg/forestblog  cjblog
 2. cd cjblog
 3. go mod tidy(前提已经开启export GO111MODULE=on）
