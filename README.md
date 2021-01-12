@@ -98,10 +98,14 @@ globalData: {
 ## 演示
 
 博客地址:[https://blog.hexiefamily.xin/](https://blog.hexiefamily.xin/)
-| 微信小程序   | qq小程序  | 抖音小程序  |
+| 微信小程序   | qq小程序  | 头条小程序  |
 | :------------: | :------------: | :------------: |
-| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/0a347020-54b3-11eb-b680-7980c8a877b8.jpg" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/f30699a0-54b2-11eb-97b7-0dc4655d6e68.png" width="150" />  |<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/c4a307f0-54b3-11eb-a16f-5b3e54966275.jpg" width="150" />  |
+| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/0a347020-54b3-11eb-b680-7980c8a877b8.jpg" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/f30699a0-54b2-11eb-97b7-0dc4655d6e68.png" width="150" />  |<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/215037b0-54d3-11eb-8ff1-d5dcf8779628.jpg" width="150" />  |
 
+## 提示
+1. qq小程序个体不支持评论功能
+2. 头条小程序抖音ios版访问不了，头条的审核机制问题
+3. 通常上线审核要2-3天，把握好时间哈~
 
 ## 功能
 
