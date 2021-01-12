@@ -49,7 +49,7 @@ globalData: {
 ```
 
 **注：例子中无appid，所以无法在手机上运行，如果需要预览，真机调试填上自己的小程序 appid哦~,具体各类小程序如何运行可以访问 [**运行**](https://uniapp.dcloud.io/quickstart-hx?id=%e8%bf%90%e8%a1%8cuni-app)
- 
+
 ### 后端部分：
 #### 地址：[cjblog](https://github.com/cjyzwg/forestblog)  
 1. git clone http://github.com/cjyzwg/forestblog  cjblog
@@ -83,6 +83,16 @@ globalData: {
 1. 所有的笔记都是markdown文件,.md结尾
 2. 服务端代码中不涉及mysql部分，本着简洁的目的，通过生成的cache文件来访问，若要添加，可自行添加或者联系我
 3. 可将此代码部署到服务器，或者部署到本机，服务器代理转发到本机即可
+
+
+### 接口部分：
+**没有加token鉴别，可自行添加**
+- 【文章列表】博客地址+/apis/articlelist，参数：page || search || 无
+- 【文章内容】博客地址+/apis/articlecontent，参数：path(文件路径名，如：/DNS/a.md)
+- 【文章分类】博客地址+/apis/category，参数：无
+- 【文章分类的内容】博客地址+/apis/categorycontent，参数：name(分类名)
+- 【今日诗词获取token】今日诗词地址+/token，参数：name(分类名)
+- 【今日诗词获取诗句】今日诗词地址+/sentence，header头加：X-User-Token(token)
 
 ## 演示
 
@@ -122,7 +132,7 @@ UniBlog的诞生离不开下面这些项目：
 - [<font color=#0099ff>qrcp_pass</font>](https://github.com/cjyzwg/qrcp_pass)： 解决跨平台传文件，不用经过微信压缩即可传视频。  
 ## 捐赠
 
-> 如果 **UniBlog** 圆了你在微信/qq/抖音小程序或app各个平台中的梦想了，可以众筹作者买哇哈哈（注：捐赠请备注哈）
+> 如果 **UniBlog** 圆了你在微信/qq/抖音小程序或app各个平台中的梦想了，可以众筹作者买个小茗同学喝喝（注：捐赠请备注哈）
 
 | 支付宝  | 微信  |
 | :------------: | :------------: |
