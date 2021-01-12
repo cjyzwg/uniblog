@@ -55,10 +55,10 @@ globalData: {
 1. git clone http://github.com/cjyzwg/forestblog  cjblog
 2. cd cjblog
 3. go mod tidy(前提已经开启export GO111MODULE=on）
-4. go run main.go
-打开浏览器，访问http://localhost:8081 即可
-5.删除resources/blog_docs/content中所有内容，分类名为文件夹名如：DNS，文件为名为：a.md
-6.所有配置项在config.json中，均可以修改
+4. go run main.go打开浏览器，访问http://localhost:8081 即可
+5. 删除resources/blog_docs/content中所有内容，分类名为文件夹名如：DNS，文件为名为：a.md
+6. 所有配置项在config.json中，均可以修改
+
 ```
 {
   "port": 8081,
