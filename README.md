@@ -8,7 +8,7 @@
 > QQ交流群: 469064015  
 ![QQ群](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/2adf2950-54a4-11eb-8ff1-d5dcf8779628.png)  
 > 微信群:  
-![微信群](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/4eeeec30-54a5-11eb-a16f-5b3e54966275.JPG)
+![微信群](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/cc772630-54b0-11eb-8a36-ebb87efcf8c0.JPG)
 
 ## 快速开始
 
