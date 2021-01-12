@@ -89,7 +89,7 @@ globalData: {
 博客地址:[https://blog.hexiefamily.xin/](https://blog.hexiefamily.xin/)
 | 微信小程序   | qq小程序  | 抖音小程序  |
 | :------------: | :------------: | :------------: |
-| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/c4a307f0-54b3-11eb-a16f-5b3e54966275.jpg" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/f30699a0-54b2-11eb-97b7-0dc4655d6e68.png" width="150" />  |<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/0a347020-54b3-11eb-b680-7980c8a877b8.jpg" width="150" />  |
+| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/0a347020-54b3-11eb-b680-7980c8a877b8.jpg" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/f30699a0-54b2-11eb-97b7-0dc4655d6e68.png" width="150" />  |<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/c4a307f0-54b3-11eb-a16f-5b3e54966275.jpg" width="150" />  |
 
 
 ## 功能
