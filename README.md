@@ -5,10 +5,9 @@
 后端地址：[cjblog](https://github.com/cjyzwg/forestblog)  
 博客地址：[博客](https://blog.hexiefamily.xin)  
 配合 [**blog**](https://github.com/cjyzwg/forestblog) ,借鉴[**WeHalo**](https://github.com/aquanlerou/WeHalo)样式开发出来的 **简约风** uniapp版博客，可供多端使用。
-> QQ交流群: 469064015  
-![QQ群](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/2adf2950-54a4-11eb-8ff1-d5dcf8779628.png)  
-> 微信群:  
-![微信群](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/cc772630-54b0-11eb-8a36-ebb87efcf8c0.JPG)
+| QQ交流群: 469064015   | 微信群  |
+| :------------: | :------------: |
+| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/2adf2950-54a4-11eb-8ff1-d5dcf8779628.pn" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/cc772630-54b0-11eb-8a36-ebb87efcf8c0.JPG" width="150" />  |
 
 ## 快速开始
 
