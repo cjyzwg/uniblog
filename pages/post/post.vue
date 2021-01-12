@@ -61,7 +61,9 @@
 			<!-- <view class="ad">
 				<ad unit-id="adunit-da5b1800a9eae6d3" ad-intervals="30"></ad>
 			</view> -->
-		
+			
+			<!-- #ifndef MP-QQ -->
+			
 			<view class="cu-bar bg-white align-center">
 				<view class="action border-title">
 					<text class="text-xxl text-bold text-blue">评论</text>
@@ -108,7 +110,7 @@
 				</view>
 			</view>
 		
-			
+			<!-- #endif -->
 		
 		 
 			
