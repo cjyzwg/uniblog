@@ -1,9 +1,12 @@
 <template>
 	<view>
+		<!-- #ifndef MP-ALIPAY -->
 		<cu-custom bgColor="bg-gradual-blue" :isCustom="true">
 			<block slot="backText">返回</block>
 			<block slot="content">文章</block>
 		</cu-custom>
+		<!-- #endif -->
+
 		<scroll-view scroll-y class="DrawerPage"  scroll-with-animation="true" :style="'background-color: ' + (skin?'#ffffff':'#ffffff') + ';width:'+windowWidth+'px;height:'+windowHeight+'px;'">
 		<!-- <view class=""> -->
 			

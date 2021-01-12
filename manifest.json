@@ -67,7 +67,8 @@
     //     }
     // }
     "mp-alipay" : {
-        "usingComponents" : true
+        "usingComponents" : true,
+        "appid" : "2021002122652243"
     },
     "mp-baidu" : {
         "usingComponents" : true

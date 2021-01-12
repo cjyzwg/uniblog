@@ -210,10 +210,12 @@
     </view>
     
     <view class="grid col-1 text-xs" style="position:fixed;bottom:20rpx;width:100%;text-align:center;">
-        <view class="flex justify-center padding-xs">
-            <view class="text-grey" style="margin-right:4rpx;">{{ miniProgram.envVersion }} Version</view>
-            <view class="text-techBlue text-bold">{{ miniProgram.version }}</view>
-        </view>
+		<!-- #ifdef MP-WEIXIN -->
+		<view class="flex justify-center padding-xs">
+		    <view class="text-grey" style="margin-right:4rpx;">{{ miniProgram.envVersion }} Version</view>
+		    <view class="text-techBlue text-bold">{{ miniProgram.version }}</view>
+		</view>
+		<!-- #endif -->
         <view class="flex justify-center">
             <view class="text-grey" style="margin-right:4rpx;">Powered by</view>
             <view class="text-lightBlue">UniBlog</view>

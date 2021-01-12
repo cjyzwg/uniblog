@@ -70,7 +70,11 @@ export default {
     uni.getSystemInfo({
       success: e => {
         self.globalData.StatusBar = e.statusBarHeight;
-        let custom = uni.getMenuButtonBoundingClientRect();
+		//这里qq小程序getMenuButtonBoundingClientRect获取到的值都是空的
+		let custom = {width:80,height:30,left:e.windowWidth-12-80,right:e.windowWidth-12,top:e.statusBarHeight+10,bottom:e.statusBarHeight+10+30};
+		// #ifdef MP-WEIXIN && MP-TOUTIAO
+		custom = uni.getMenuButtonBoundingClientRect();
+		// #endif
         self.globalData.Custom = custom;
         self.globalData.CustomBar = custom.bottom + custom.top - e.statusBarHeight;
       }

@@ -3,7 +3,7 @@
 <view class="mask" :hidden="isHidden" @tap.stop="closeMask">
     <view class="masks" @tap.stop="prevent" :animation="ani">
         <view class="box" v-if="isGithub">	
-            <image class="leftImage" mode="widthFix" src="/static/image/qrcode_1.png" ></image>
+            <image class="leftImage" mode="widthFix" :src="qrcode" ></image>
             <view class="right">
                 <view class="title">
                     <text class="name">NickCJ</text>
@@ -17,7 +17,7 @@
             </view>
         </view>
 		<view class="box" style="justify-content: center;" v-else>
-			<image src="/static/image/qrcode_2.png" mode="aspectFit"></image>
+			<image :src="zanshangqrcode" mode="aspectFit"></image>
 		</view>
     </view>
 </view>
@@ -31,6 +31,28 @@ export default {
       ani: "",
 	  isHidden:true
     };
+  },
+  computed:{
+	  qrcode:function(){
+		  let img = "/static/image/qrcode_1.png"
+		  // #ifdef MP-TOUTIAO
+		  img =  "/static/image/zijie_qrcode_1.png"
+		  // #endif
+		  // #ifdef MP-QQ
+		  img =  "/static/image/qq_qrcode_1.png"
+		  // #endif
+		  return img
+	  },
+	  zanshangqrcode:function(){
+		  let img = "/static/image/qrcode_2.png"
+		  // #ifdef MP-TOUTIAO
+		  img =  "/static/image/zijie_qrcode_2.png"
+		  // #endif
+		  // #ifdef MP-QQ
+		  img =  "/static/image/qq_qrcode_2.png"
+		  // #endif
+		  return img
+	  }
   },
 
   components: {},
