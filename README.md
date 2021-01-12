@@ -2,9 +2,9 @@
 
 ## 简介
 前端地址：[uniblog](https://github.com/cjyzwg/uniblog)  
-后端地址：[cjblog](https://github.com/cjyzwg/forestblog)  
+后端地址：[cjblog](https://github.com/cjyzwg/cjblog)  
 博客地址：[博客](https://blog.hexiefamily.xin)  
-配合 [**blog**](https://github.com/cjyzwg/forestblog) ,借鉴[**WeHalo**](https://github.com/aquanlerou/WeHalo)样式开发出来的 **简约风** uniapp版博客，可供多端使用。
+配合 [**blog**](https://github.com/cjyzwg/cjblog) ,借鉴[**WeHalo**](https://github.com/aquanlerou/WeHalo)样式开发出来的 **简约风** uniapp版博客，可供多端使用。
 | QQ交流群: 469064015   | 微信群  |
 | :------------: | :------------: |
 | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/2adf2950-54a4-11eb-8ff1-d5dcf8779628.png" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/cc772630-54b0-11eb-8a36-ebb87efcf8c0.JPG" width="150" />  |
@@ -52,8 +52,8 @@ globalData: {
 **注：例子中无appid，所以无法在手机上运行，如果需要预览，真机调试填上自己的小程序 appid哦~,具体各类小程序如何运行可以访问 [**运行**](https://uniapp.dcloud.io/quickstart-hx?id=%e8%bf%90%e8%a1%8cuni-app)
 
 ### 后端部分：
-#### 地址：[cjblog](https://github.com/cjyzwg/forestblog)  
-1. git clone http://github.com/cjyzwg/forestblog  cjblog
+#### 地址：[cjblog](https://github.com/cjyzwg/cjblog)  
+1. git clone http://github.com/cjyzwg/cjblog
 2. cd cjblog
 3. go mod tidy(前提已经开启export GO111MODULE=on）
 4. go run main.go打开浏览器，访问http://localhost:8081 即可
