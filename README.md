@@ -86,7 +86,6 @@ globalData: {
 
 ## 演示
 
-![WeHalo](https://github.com/aquanlerou/WeHalo/blob/master/image/wx.png)  
 博客地址:[https://blog.hexiefamily.xin/](https://blog.hexiefamily.xin/)
 | 微信小程序   | qq小程序  | 抖音小程序  |
 | :------------: | :------------: | :------------: |
