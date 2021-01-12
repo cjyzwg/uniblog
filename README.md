@@ -8,6 +8,7 @@
 | QQ交流群: 469064015   | 微信群  |
 | :------------: | :------------: |
 | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/2adf2950-54a4-11eb-8ff1-d5dcf8779628.png" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/cc772630-54b0-11eb-8a36-ebb87efcf8c0.JPG" width="150" />  |
+**如果群二维码失效，可加nockygo，拉你入群**
 
 ## 快速开始
 
