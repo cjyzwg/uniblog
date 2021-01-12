@@ -7,7 +7,7 @@
 配合 [**blog**](https://github.com/cjyzwg/forestblog) ,借鉴[**WeHalo**](https://github.com/aquanlerou/WeHalo)样式开发出来的 **简约风** uniapp版博客，可供多端使用。
 | QQ交流群: 469064015   | 微信群  |
 | :------------: | :------------: |
-| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/2adf2950-54a4-11eb-8ff1-d5dcf8779628.pn" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/cc772630-54b0-11eb-8a36-ebb87efcf8c0.JPG" width="150" />  |
+| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/2adf2950-54a4-11eb-8ff1-d5dcf8779628.png" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/cc772630-54b0-11eb-8a36-ebb87efcf8c0.JPG" width="150" />  |
 
 ## 快速开始
 
@@ -88,6 +88,10 @@ globalData: {
 
 ![WeHalo](https://github.com/aquanlerou/WeHalo/blob/master/image/wx.png)  
 博客地址:[https://blog.hexiefamily.xin/](https://blog.hexiefamily.xin/)
+| 微信小程序   | qq小程序  | 抖音小程序  |
+| :------------: | :------------: | :------------: |
+| <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/fc813490-54b2-11eb-bd01-97bc1429a9ff.png" width="150"/>  | <img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/f30699a0-54b2-11eb-97b7-0dc4655d6e68.png" width="150" />  |<img src="https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/0a347020-54b3-11eb-b680-7980c8a877b8.jpg" width="150" />  |
+
 
 ## 功能
 
