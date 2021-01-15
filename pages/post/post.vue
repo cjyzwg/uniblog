@@ -1,15 +1,12 @@
 <template>
-	<view>
-		<!-- #ifndef MP-ALIPAY -->
-		<cu-custom bgColor="bg-gradual-blue" :isCustom="true">
-			<block slot="backText">返回</block>
-			<block slot="content">文章</block>
-		</cu-custom>
-		<!-- #endif -->
-
 		<scroll-view scroll-y class="DrawerPage"  scroll-with-animation="true" :style="'background-color: ' + (skin?'#ffffff':'#ffffff') + ';width:'+windowWidth+'px;height:'+windowHeight+'px;'">
 		<!-- <view class=""> -->
-			
+			<!-- #ifndef MP-ALIPAY -->
+			<cu-custom bgColor="bg-gradual-blue" :isCustom="true">
+				<block slot="backText">返回</block>
+				<block slot="content">文章</block>
+			</cu-custom>
+			<!-- #endif -->
 			<view class="flex-sub text-center margin-sm">
 			  <view class="text-xxxl">
 				<text class="text-black text-bold">{{postTitle}}</text>
@@ -118,7 +115,7 @@
 		
 		<!-- </view> -->
 		</scroll-view>
-	</view>
+
 </template>
 
 <script>
@@ -135,7 +132,7 @@ export default {
 	},
 	data() {
 		return {
-			windowHeight: app.globalData.windowHeight-app.globalData.CustomBar,
+			windowHeight: app.globalData.windowHeight,
 			windowWidth:app.globalData.windowWidth,
 			StatusBar: app.globalData.StatusBar,
 			CustomBar: app.globalData.CustomBar,

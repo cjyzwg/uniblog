@@ -199,10 +199,16 @@
 			    </navigator>
 			</view>
 			<!-- #ifdef MP-WEIXIN -->
-			<view class="cu-item arrow" @tap="toProject">
+			<view class="cu-item arrow" @tap="toProject(1)">
 			    <view class="content" >
 			        <text class="cuIcon-file text-gray menu-img"></text>
 			        <text class="text-grey">有趣的小程序（情侣大头贴）</text>
+			    </view>
+			</view>
+			<view class="cu-item arrow" @tap="toProject(2)">
+			    <view class="content" >
+			        <text class="cuIcon-file text-lightBlue menu-img"></text>
+			        <text class="text-grey">外卖优惠券（干饭券天天领）</text>
 			    </view>
 			</view>
 			<!-- #endif -->
@@ -539,17 +545,27 @@ export default {
 	  
 	  		 })
 	  },
-	  toProject(){
+	  toProject(type){
 		  //微信小程序
 		  //#ifdef MP-WEIXIN 
-		  
-		  wx.navigateToMiniProgram({
-		    appId: 'wx616e9477f55f3e29', 
-		    path: '/pages/my/my',
-		    success(res) {
-		  	// 打开成功
-		    }
-		  })
+		  if(type==1){
+			  wx.navigateToMiniProgram({
+			    appId: 'wx616e9477f55f3e29', 
+			    path: '/pages/my/my',
+			    success(res) {
+			  	// 打开成功
+			    }
+			  })
+		  }else if(type==2){
+			  wx.navigateToMiniProgram({
+			    appId: 'wx175fa35dbabb9675', 
+			    path: '/pages/index/index',
+			    success(res) {
+			  	// 打开成功
+			    }
+			  })
+		  }
+
 		  //#endif
 	  },
     /**
