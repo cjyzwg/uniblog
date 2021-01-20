@@ -53,6 +53,32 @@ globalData: {
 
 ### 后端部分：
 #### 地址：[cjblog](https://github.com/cjyzwg/cjblog)  
+#### 做法一(无需代码)
+1. 下载：[cjblog.zip](https://vkceyugu.cdn.bspapp.com/VKCEYUGU-aliyun-6rawjgd8tdtl4007ee/e9df4650-5648-11eb-8ff1-d5dcf8779628.zip)
+2. 下载：[对应系统二进制文件](https://github.com/cjyzwg/cjblog/releases/tag/1.0.0)
+3. cd cjblog，点击二进制文件
+4. 打开浏览器，访问http://localhost:8081 即可
+5. 在resources/blog_docs/content中添加文件夹/mardown文件即可
+6. 所有配置项在config.json中，均可以修改
+```
+{
+  "port": 8081,
+  "pageSize": 7,
+  "descriptionLen": 200,
+  "author": "Chensir",
+  "webHookSecret": "cj",
+  "timeLayout": "2006.01.02 15:04",
+  "siteName": "Chensir's Personal Blog",
+  "documentPath": "resources/blog_docs",
+  "htmlKeywords": "forest blog,Golang,前端",
+  "htmlDescription": "Chensir's Personal blog",
+  "categoryListFileNumber": 6,
+  "themeColor": "#9c27b0",
+  "dashboardEntrance": "/admin",
+  "themeOption": ["#673ab7","#f44336","#9c27b0","#2196f3","#607d8b","#795548"]
+}
+```
+#### 做法二（熟悉golang）
 1. git clone http://github.com/cjyzwg/cjblog
 2. cd cjblog
 3. go mod tidy(前提已经开启export GO111MODULE=on）
